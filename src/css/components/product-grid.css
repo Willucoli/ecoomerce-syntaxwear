@@ -1,0 +1,77 @@
+.card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.destaque {
+    grid-area: destaque;
+    background-image: url(../../images/products/modelo-masculino.jpg);
+
+}
+
+.sneaker-purple {
+    grid-area: sneaker-purple;
+    background-image: url(../../images/products/tênis-roxo-verde.jpg);
+}
+
+.model {
+    grid-area: model;
+    background-image: url(../../images/products/modelo-feminina.jpg);
+}
+
+.sneaker-color {
+    grid-area: sneaker-color;
+    background-image: url(../../images/products/futurista-grid.jpg);
+}
+
+.sneaker-white {
+    grid-area: sneaker-white;
+    background-image: url(../../images/products/tênis-branco-azul.jpg);
+}
+
+.sneaker-silver {
+    grid-area: sneaker-silver;
+    background-image: url(../../images/products/cinza-grid.jpg);
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "destaque destaque sneaker-purple sneaker-purple"
+        "destaque destaque model sneaker-color"
+        "sneaker-white sneaker-white model sneaker-silver";
+    gap: 30px;
+}
+
+.top1-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #ededed;
+    margin-bottom: 10px;
+}
+
+.card-subtitle{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #ededed;
+    margin-bottom: 20px;
+}
+
+.cta.group{
+    display: flex;
+    gap:10px;
+}

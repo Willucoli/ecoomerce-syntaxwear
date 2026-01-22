@@ -6,10 +6,12 @@ Bem-vindo ao repositório do SyntaxWear, um projeto de e-commerce focado na vend
 
 ## 🚀 Começando
 
-Para visualizar o projeto, não é necessário nenhuma instalação complexa. Basta clonar o repositório e abrir o arquivo `index.html` em seu navegador de preferência.
+Para visualizar o projeto, não é necessário nenhuma instalação complexa. Basta clonar o repositório e abrir o arquivo `index.html` em seu navegador de preferência, Ou acessar o link do gitghub pages
 
-```bash
-git https://github.com/Willucoli/ecoomerce-syntaxwear.git
+```bash 
+git https://willucoli.github.io/ecoomerce-syntaxwear/
+
+ git https://github.com/Willucoli/ecoomerce-syntaxwear.git
 cd ecoomerce-syntaxwear
 # Abra o arquivo index.html no navegador
 ```

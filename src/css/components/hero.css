@@ -39,3 +39,28 @@
     display: flex;
     gap:16px
 }
+
+@media (max-width: 768px){
+    .hero{
+        height: 660px;
+        background-image:url(../../images/products/modelo-masculino.jpg) ;
+    }
+    .hero-overlay{
+        justify-content: center;
+        padding: 0;
+    }
+    .hero .hero-content{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .hero .hero-content .hero-title{
+        font-size: 1.5rem;
+    }
+    .hero .hero-content .hero-subtitle{
+        font-size: 1.25rem;
+    }
+
+    .btn{
+        font-size: 1.2rem;
+    }
+}

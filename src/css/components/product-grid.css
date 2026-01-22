@@ -103,6 +103,9 @@
     .sneaker-purple {
         min-height: 190px;
     }
-
+    .cta.group {
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
